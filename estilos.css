@@ -1,0 +1,144 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navegacion{
+    background-color: #000;
+    font-weight: 600;
+    overflow: hidden;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: #555;
+}
+
+.menu li a:hover{
+    background-color: #555;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: #f9f9f9;
+}
+
+.titulo{
+    color: #892389;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.container__form{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #f2a4a4;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.container__form label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: rgb(32, 8, 8);
+    display: block;
+}
+
+.form{
+    width: 100%;
+}
+
+.container__form input{
+    width: 80%;
+    padding: 1rem;
+    border: 1px solid #0e0d0d;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.container__form input:focus{
+    outline: none;
+    border-color: #77dff4;    
+}
+
+
+.container__form .submit-button:hover{
+    background-color: #9C7D0A;
+}
+.container__form .captcha-image {
+    margin-top: 1rem;
+    display: block;
+  }
+  
+  .error {
+    color: #ff0000;
+  }
+  
+  .captcha-image {
+    margin-top: 10px;
+    display: block;
+  }
+  
+  /* Cargar personaje*/
+  .seccion__cargar{
+    padding: 2rem;
+  }
+  
+  /* VER PERSONAJES*/
+  .container__personajes{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .caja_personajes{
+    font-size: 1rem;
+    font-size:small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(251, 197, 215);
+    padding: 2rem;
+    margin: 0.5rem;
+    width: 30%;
+  }
+  .caja_personajes img{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 60%;
+    height: 60%;
+    border-radius: 2rem;
+
+  }
+ 
+
